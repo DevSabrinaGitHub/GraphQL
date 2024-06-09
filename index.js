@@ -53,7 +53,7 @@ const cursos = [
 //type Query donde retorna Curso, añadimos [Curso]    
 const resolvers ={
     Query: {
-        obtenerCursos: () => cursos, 
+        obtenerCursos: () => cursos, //retorna los valores del objeto cursos
         obtenerTecnologia: () => cursos
         
 
